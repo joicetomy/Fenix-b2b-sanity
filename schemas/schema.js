@@ -7,9 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import { footer, footerItem, footerLeft, socialMediaFooterLink } from './documents/footer'
 import header from './documents/header'
 import home from './documents/home'
-import localeBlockContent from './locale/BlockContent'
-import localeString from './locale/String'
-import localeText from './locale/Text'
+import staticPage from './documents/staticPage'
 import { bannerButton, bannerCarousal, bannerCarousalItem } from './objects/bannerCarousal'
 import blockContent from './objects/blockContent'
 import catalog from './objects/catalog'
@@ -36,12 +34,9 @@ export default createSchema({
     header,
     home,
     footer,
+    staticPage,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
-    blockContent,
-    localeText,
-    localeBlockContent,
-    localeString,
     catalog,
     profileManagement,
     priceManagement,

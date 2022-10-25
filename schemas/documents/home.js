@@ -19,4 +19,9 @@ export default {
         ],
       },
     ],
+    preview: {
+      prepare() {
+        return { title: 'Home Page' };
+      },
+    },
 };

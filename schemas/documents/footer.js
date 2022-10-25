@@ -9,20 +9,6 @@ const footer = {
        title: 'Social media handles',
      },
      {
-       name: 'seperator',
-       type: 'string',
-       title: 'Seperator',
-       options: {
-         list: [
-           { title: 'Space', value: ' ' },
-           { title: '|', value: '|' },
-           { title: '-', value: '-' },
-           { title: ',', value: ',' },
-           { title: '.', value: '.' },
-         ],
-       },
-     },
-     {
        name: 'footeritemsBlock',
        type: 'array',
        title: 'Footer items',
@@ -35,6 +21,11 @@ const footer = {
        ],
      },
    ],
+   preview: {
+    prepare() {
+      return { title: 'Footer' };
+    },
+  },
  };
  
  const socialMediaFooterLink = {
@@ -51,6 +42,9 @@ const footer = {
        name: 'icon',
        type: 'image',
        title: 'Icon',
+       options: {
+        hotspot: true,
+      },
      },
      {
        name: 'link',

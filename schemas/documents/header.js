@@ -54,6 +54,11 @@ export default {
     ],
   },
 ],
+preview: {
+  prepare() {
+    return { title: 'Header' };
+  },
+},
 };
 
 
