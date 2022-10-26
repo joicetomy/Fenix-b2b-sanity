@@ -21,6 +21,7 @@ import priceManagement from './objects/priceManagement'
 import product from './objects/product'
 import profileManagement from './objects/profileManagement'
 import topPicks from './objects/topPicks'
+import richTextEditor from './objects/richTextEditor'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -51,5 +52,6 @@ export default createSchema({
     catalogueBanner,
     linkWithText,
     headerLabel,
+    richTextEditor,
   ]),
 })

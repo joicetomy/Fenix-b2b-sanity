@@ -20,7 +20,7 @@ export default {
     {
       title: 'Page Data',
       name: 'pageData',
-      type: 'blockContent',
+      type: 'richTextEditor',
     },
   ],
 };
