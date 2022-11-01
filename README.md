@@ -1,5 +1,13 @@
 # Sanity Ecommerce Content Studio
 
+# To run sanity studio 
+
+# npm i
+
+# sanity start </br>
+
+sanity studio will be started on localhost:3000
+
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
 Now you can do the following things:
